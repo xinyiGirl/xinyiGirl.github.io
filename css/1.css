@@ -1,0 +1,182 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-size: 14px;
+}
+ul,li{
+	list-style: none;
+}
+.clearfix:after{
+	height: 0;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	display: block;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+	background-color: transparent;
+    word-wrap: break-word;
+    -webkit-transition: all .2s ease-in;
+}
+
+/*logo*/
+.logo{
+	width: 10rem;
+    position: fixed;
+    left: 1%;
+    top: 15%;
+    z-index: 2;
+    -webkit-transition: all .4s ease-in-out;
+}
+.pic{
+	width: 10rem;
+    height: 10rem;
+    border-radius: 50% 50% 5px 50%;
+    background-color: hsla(0,100%,99%,.7);
+    padding: .5rem;
+    position: absolute;
+    top: 0;
+    box-shadow: 0 0 8px hsla(0,0%,47%,.7);
+}
+.pic .sj{
+	position: absolute;
+    bottom: 4.5px;
+    right: 2.8px;
+    font-size: 1.7rem;
+    -webkit-transition: all .4s ease-in-out;
+    transform-origin: center;
+    transform: rotate(45deg);
+    color: #333;
+    cursor: pointer;
+    width: 25.95px;
+    height: 25.95px;
+}
+
+.pic .cat{
+	border-radius: 50%;
+	width: 160px;
+	height: 160px;
+}
+.word{
+	width: 11rem;
+    position: absolute;
+    top: 12rem;
+    left: .5rem;
+    color: snow;
+    text-shadow: 0 0 8px hsla(0,0%,47%,.9);
+}
+.word .name{
+	font-size: 2rem;
+}
+.word .fm{
+	color:snow;
+    text-shadow: 0 0 8px hsla(0,0%,47%,.9);
+}
+.friends span{
+	margin-right: .5px;
+}
+.friends span a{
+	color: #777;
+    -webkit-transition: all .2s ease-in;
+}
+.word .blank{
+	margin-top: 1rem;
+    background-color: #2ac3ff;
+    height: 3px;
+    width: 0;
+}
+/*head*/
+.head{
+	position: relative;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: plum;
+    height:366.09px;
+}
+.head .nav{
+	width: 100%;
+    padding: 1rem 0;
+    z-index: 3;
+    -webkit-transition: all .4s ease-in;
+    position: fixed;
+    top: 0;
+    left: auto;
+    right: auto;
+    bottom: auto;
+}
+.nav .center{
+	width: 70%;
+    margin: auto;
+}
+.center .left{
+	margin-left: 2rem;
+    float: left;
+}
+.left>a{
+	font-size: 1.2rem;
+    font-weight: 700;
+    color: snow;
+}
+.center .right{
+	margin-right: 2rem;
+    float: right;
+}
+.right>a{
+	color: snow;
+    margin-left: .5rem;
+}
+
+.head h1{
+	width: 100%;
+    font-size: 300%;
+    text-align: center;
+    color: snow;
+    margin: 0;
+    text-decoration: underline;
+}
+.head h5{
+	margin: 1rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: snow;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.head .tb{
+	width: 100%;
+    text-align: center;
+}
+.tb>a{
+	height: 1rem;
+    width: 1rem;
+    color: #fff;
+    margin: .5rem;
+    padding: .5rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transform-origin: center;
+    -webkit-transition: all .5s ease-in-out;
+}
+.tb .stb{
+	display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.tb>a img{
+	height: 100%;
+	width: 100%;
+}
